@@ -14,6 +14,10 @@ from langchain_core.prompts import PromptTemplate
 from langchain_core.output_parsers import JsonOutputParser
 import asyncio
 import nest_asyncio
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 # --- Environment Variable Setup ---
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")

@@ -1,0 +1,10 @@
+streamlit
+PyPDF2
+langgraph
+langchain-google-genai
+langchain-community
+langchain-core
+chromadb
+nest_asyncio
+python-dotenv
+tavily-python

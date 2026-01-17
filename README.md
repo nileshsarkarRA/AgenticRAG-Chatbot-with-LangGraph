@@ -57,3 +57,42 @@ graph TD
     class A,M start-end;
     class B,C,D,E,F,I,K,L,H process;
     class G,J decision;
+
+```
+
+## 🚀 Getting Started
+
+### 1. Prerequisites
+- Python 3.10+ (Recommended Python 3.14.2)
+- [Poetry](https://python-poetry.org/) or [venv](https://docs.python.org/3/library/venv.html)
+
+### 2. Installation
+Clone the repository and install the dependencies:
+```bash
+# Create and activate virtual environment
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1  # Windows
+source .venv/bin/activate     # Unix/macOS
+
+# Install dependencies
+pip install -r requirements.txt
+```
+
+### 3. Configuration
+Create a `.env` file in the root directory (using `.env.example` as a template):
+```bash
+GEMINI_API_KEY=your_gemini_api_key
+TAVILY_API_KEY=your_tavily_api_key
+```
+
+### 4. Usage
+Run the Streamlit application:
+```bash
+streamlit run AgenticRAG_using_LangGraph.py
+```
+
+## 📁 Project Structure
+- `AgenticRAG_using_LangGraph.py`: Main application logic and Streamlit UI.
+- `data/`: Sample PDF documents for testing.
+- `.env.example`: Template for environment variables.
+- `requirements.txt`: Project dependencies.
