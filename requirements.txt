@@ -1,9 +1,15 @@
 streamlit
 PyPDF2
-langgraph
+langgraph>=0.2.0
+langchain>=0.3.0
 langchain-google-genai
 langchain-community
 langchain-core
+chromadb
+nest_asyncio
+python-dotenv
+tavily-python
+pyowm
 chromadb
 nest_asyncio
 python-dotenv
